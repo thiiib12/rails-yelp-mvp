@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'font-awesome-sass', '~> 5.6.1'
+gem 'simple_form'
+gem "faker", "~> 2.14"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -37,6 +40,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'autoprefixer-rails'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -45,3 +49,4 @@ gem 'rspec-rails', '4.0.0.beta3', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 gem 'rspec-rails', '4.0.0.beta3', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+
